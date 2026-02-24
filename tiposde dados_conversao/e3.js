@@ -23,5 +23,9 @@ let undefinedValue = undefined;
 console.log(undefinedValue); // undefined
 
 // Exemplo de variável declarada e atribuída com um símbolo
-let meuSimbolo = Symbol("&");
+let meuSimbolo = Symbol("");
+if (typeof meuSimbolo === "symbol") {
+  console.log("É um símbolo!");
+}
+
 console.log(meuSimbolo); // Symbol
